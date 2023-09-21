@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Практическая работа №3</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.7/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      .tooltip {
+        position: relative;
+        display: inline-block;
+      }
+
+      .tooltip:hover::after {
+        content: "Выбран рандомно";
+        position: absolute;
+        top: -28px;
+        left: 100%;
+        padding: 6px 12px;
+        background-color: #333;
+        color: #fff;
+        border-radius: 4px;
+        white-space: nowrap;
+      }
+    </style>
+  </head>
+  <body class="bg-gray-100">
+    <header class="bg-gray-500 text-white py-4">
+      <div class="container mx-auto text-center">
+        <h1 class="text-3xl font-semibold">Практическая работа №3</h1>
+      </div>
+    </header>
+
+    <main class="container mx-auto mt-6 p-4">
+      <section class="mb-8">
+        <h2 class="text-2xl font-semibold">1 задание</h2>
+        <p class="mb-4">
+          Условие: В проекте привести примеры работы операторов:
+        </p>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <div class="bg-white p-4 rounded-lg shadow-md">
+            <h3 class="text-xl font-semibold mb-2">if ... else</h3>
+            <iframe
+              src="https://pl.kotl.in/BDYMPgba9"
+              class="w-full h-64"
+            ></iframe>
+          </div>
+          <div class="bg-white p-4 rounded-lg shadow-md">
+            <h3 class="text-xl font-semibold mb-2">for</h3>
+            <iframe
+              src="https://pl.kotl.in/4zb3DL7IS"
+              class="w-full h-64"
+            ></iframe>
+          </div>
+          <div class="bg-white p-4 rounded-lg shadow-md">
+            <h3 class="text-xl font-semibold mb-2">while</h3>
+            <iframe
+              src="https://pl.kotl.in/U4y2E3U4d"
+              class="w-full h-64"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+
+      <section class="mb-8">
+        <h2 class="text-2xl font-semibold">2 задание</h2>
+        <p class="mb-4">Условие: Создать класс</p>
+
+        <div class="bg-white p-4 rounded-lg shadow-md">
+          <div class="tooltip mb-2">
+            <span class="text-xl font-semibold mb-2 cursor-pointer"
+              >Вариант 3</span
+            >
+          </div>
+          <iframe
+            src="https://pl.kotl.in/pJE1cYA_Z"
+            class="w-full h-64"
+          ></iframe>
+        </div>
+      </section>
+
+      <section class="mb-8">
+        <h2 class="text-2xl font-semibold">3 задание</h2>
+        <p class="mb-4">
+          Условие: В классе Main создать несколько экземпляров класса(объектов).
+          Измените их поля: попробуйте изменить их поля вручную, попробуйте
+          через метод.
+        </p>
+
+        <div class="bg-white p-4 rounded-lg shadow-md">
+          <h3 class="text-xl font-semibold mb-2">Решение</h3>
+          <iframe
+            src="https://pl.kotl.in/fQKZ7uIqh"
+            class="w-full h-64"
+          ></iframe>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-gray-500 py-4">
+      <div class="container mx-auto text-center text-white">
+        <p>&copy; 2023 Смолин Иван</p>
+      </div>
+    </footer>
+  </body>
+</html>
